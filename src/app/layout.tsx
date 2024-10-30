@@ -22,6 +22,8 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </header>
       <body>{children}</body>
     </html>
