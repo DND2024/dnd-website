@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "../../../src/app/globals.css";
 import { IoClose, IoMenu } from "react-icons/io5";
+import Button from "../elements/Button";
 
 function Header() {
   function onToggle() {
-    console.log('first')
+    console.log("first");
     const navLinks = document.querySelector(".nav-link");
-    navLinks?.classList.toggle('top-[100%]')
+    navLinks?.classList.toggle("top-[100%]");
   }
 
   return (
@@ -54,14 +55,9 @@ function Header() {
           </ul>
         </div>
         <div className="montserrat-subrayada-bold flex gap-3">
-          <button
-            name="contact"
-            className="bg-[#F55E04] text-white px-6 py-3 rounded hover:cursor-pointer  "
-          >
-            Contact Us
-          </button>
+          <Button />
           <button className="hover:cursor-pointer text-3xl text-[#F55E04] md:hidden">
-            <IoMenu onClick={onToggle}/>
+            <IoMenu onClick={onToggle} />
           </button>
         </div>
       </nav>
