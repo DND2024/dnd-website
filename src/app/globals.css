@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.montserrat-subrayada-bold {
+.montserrat-subrayada {
   font-family: "Montserrat Subrayada", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
-  src: url("/public/fonts/MontserratSubrayada-Bold.ttf");
 }
 
 .nothing-you-could-do-regular {

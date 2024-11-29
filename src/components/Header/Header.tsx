@@ -4,23 +4,17 @@ import { IoClose, IoMenu } from "react-icons/io5";
 import Button from "../elements/Button";
 
 function Header() {
-  function onToggle() {
-    console.log("first");
-    const navLinks = document.querySelector(".nav-link");
-    navLinks?.classList.toggle("top-[100%]");
-  }
-
   return (
     <section className="header">
-      <nav className="bg-[#EFEEE0] w-screen text-black flex justify-between items-center px-4 ">
-        <div className="w-1/4">
+      <nav className="bg-[#EFEEE0] w-screen items-center justify-between text-black flex ">
+        <div className="w-1/6 flex">
           <img
             className="w-40 hover:cursor-pointer static"
             src="/dnd-logo.webp"
             alt="dnd-logo"
           />
         </div>
-        <div className="nav-link montserrat-subrayada-bold hover:cursor-pointer  bg-[#EFEEE0] left-0  md:py-0 py-10 md:w-auto w-2/4 mt-[100%] float-start md:mt-0 absolute md:static ">
+        <div className="w-4/6 nav-link montserrat-subrayada hover:cursor-pointer flex  bg-[#EFEEE0] left-0  md:py-0 py-10 md:w-auto mt-[100%] md:mt-0 md:static ">
           <ul className="flex md:flex-row flex-col gap-8 justify-center items-center ">
             <li>
               <a className="text-[#F55E04]" href="/">
@@ -54,10 +48,10 @@ function Header() {
             </li>
           </ul>
         </div>
-        <div className="montserrat-subrayada-bold flex gap-3 w-1/4">
+        <div className="montserrat-subrayada gap-3 w-1/6">
           <Button />
           <button className="hover:cursor-pointer text-3xl text-[#F55E04] md:hidden">
-            <IoMenu onClick={onToggle} />
+            <IoMenu />
           </button>
         </div>
       </nav>
