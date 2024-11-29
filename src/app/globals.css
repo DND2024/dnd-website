@@ -3,8 +3,27 @@
 @tailwind utilities;
 
 .montserrat-subrayada-bold {
-    font-family: "Montserrat Subrayada", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    src: url("/public/fonts/MontserratSubrayada-Bold.ttf");
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url("/public/fonts/MontserratSubrayada-Bold.ttf");
+}
+
+.nothing-you-could-do-regular {
+  font-family: "Nothing You Could Do", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lexend-font {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaranth-regular {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

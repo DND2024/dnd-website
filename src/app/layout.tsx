@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import localFont from '@next/font/local'
+import localFont from "@next/font/local";
 
 export const metadata: Metadata = {
   title: "DnD",
@@ -19,11 +19,14 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Amaranth&family=Lexend&family=Montserrat+Subrayada&family=Nothing+You+Could+Do&display=swap"
           rel="stylesheet"
         />
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </header>
       <body>{children}</body>
     </html>
