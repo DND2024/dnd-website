@@ -14,7 +14,7 @@ function Header() {
             alt="dnd-logo"
           />
         </div>
-        <div className="w-[60%] justify-center nav-link montserrat-subrayada hover:cursor-pointer flex  bg-[#EFEEE0] left-0  md:py-0 py-10 md:w-auto mt-[100%] md:mt-0 md:static">
+        <div className="w-[60%] justify-center nav-link montserrat-subrayada hover:cursor-pointer flex  bg-[#EFEEE0] left-0  md:py-0 py-10 md:w-auto mt-[100%] md:mt-0 md:static hidden">
           <ul className="flex md:flex-row flex-col gap-8 justify-center items-center ">
             <li>
               <a className="text-[#F55E04]" href="/">
