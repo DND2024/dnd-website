@@ -5,57 +5,59 @@ import Button from "../elements/Button";
 
 function Header() {
   return (
-    <section className="header">
-      <nav className="bg-[#EFEEE0] h-20 w-screen items-center justify-between md:px-4 text-black flex ">
-        <div className="w-[50%] md:w-[20%] flex">
-          <img
-            className="w-40 h-18 hover:cursor-pointer static"
-            src="/dnd-logo.webp"
-            alt="dnd-logo"
-          />
-        </div>
-        <div className="w-[60%] justify-center nav-link montserrat-subrayada hover:cursor-pointer flex  bg-[#EFEEE0] left-0  md:py-0 py-10 md:w-auto mt-[100%] md:mt-0 md:static hidden">
-          <ul className="flex md:flex-row flex-col gap-8 justify-center items-center ">
-            <li>
-              <a className="text-[#F55E04]" href="/">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-[#F55E04]" href="/team">
-                Team
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-[#F55E04]" href="/about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-[#F55E04]" href="/events">
-                Events
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-[#F55E04]" href="/blog">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-[#F55E04]" href="/gallery">
-                Gallery
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="w-[40%] md:w-[20%] montserrat-subrayada gap-3 ">
+    <nav className="flex flex-row w-screen px-[2%] bg-[#EFEEE0] items-center">
+      <div className="w-1/2 md:w-[20%] flex justify-center ">
+        <img
+          className="h-20 hover:cursor-pointer static"
+          src="/dnd-logo.webp"
+          alt="dnd-logo"
+        />
+      </div>
+
+      <div className="w-0 md:w-[60%] flex justify-center mt-[-100%] md:mt-0">
+        <ul className="flex flex-row montserrat-subrayada hover:cursor-pointer gap-6">
+          <li>
+            <a className="text-[#F55E04]" href="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-[#F55E04]" href="/team">
+              Team
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-[#F55E04]" href="/about">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-[#F55E04]" href="/events">
+              Events
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-[#F55E04]" href="/blog">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-[#F55E04]" href="/gallery">
+              Gallery
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="w-1/2 md:w-[20%] flex justify-center  montserrat-subrayada">
+        <div className=" w-3/4 flex justify-center">
           <Button text={{ value: "Contact Us" }} />
-          <button className="hover:cursor-pointer text-3xl text-[#F55E04] hidden">
-            <IoMenu />
-          </button>
         </div>
-      </nav>
-    </section>
+        <div className=" w-1/4 flex  md:hidden">
+          <IoMenu className="text-5xl" />
+        </div>
+      </div>
+    </nav>
   );
 }
 
