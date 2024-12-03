@@ -5,7 +5,7 @@ import Button from "../elements/Button";
 
 function Header() {
   return (
-    <nav className="flex flex-row w-screen px-[2%] bg-[#EFEEE0] items-center">
+    <nav className="flex flex-row w-screen px-[2%] bg-[#EFEEE0] items-center border-b-2 border-black fixed">
       <div className="w-1/2 md:w-[20%] flex justify-center ">
         <img
           className="h-20 hover:cursor-pointer static"
