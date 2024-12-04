@@ -1,5 +1,4 @@
 import React from "react";
-import CardLatestBuzz from "../elements/CardLatestBuzz";
 
 function Hero() {
   return (
@@ -22,8 +21,7 @@ function Hero() {
             </h1>
             <br />
             <h1 className="flex amaranth-regular text-xl md:text-2xl bg-gradient-to-r from-[#00A6FF] to-[#FF14CB] text-transparent bg-clip-text">
-              Where drama creates magic <br />
-              dance burns the floor!
+              Where drama creates magic dance burns the floor!
             </h1>
           </div>
           <img
