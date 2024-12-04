@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Blog() {
+function page() {
   return (
-    <div>Blog</div>
+    <div>BlogPage</div>
   )
 }
 
-export default Blog
+export default page
