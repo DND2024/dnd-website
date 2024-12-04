@@ -10,7 +10,7 @@ function CardLatestBuzz() {
       />
       <div className="card-body">
         <h5 className="card-title py-3 font-extrabold text-xl ">Music Night</h5>
-        <p className="card-text font-light opacity-80">
+        <p className="card-text font-light ">
           Some quick example text to build on the card title and make up the
         </p>
       </div>

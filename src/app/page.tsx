@@ -3,6 +3,7 @@ import Button from "@/components/elements/Button";
 import CardLatestBuzz from "@/components/elements/CardLatestBuzz";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
+import Video from "@/components/Video/Video";
 import React from "react";
 
 function page() {
@@ -18,6 +19,7 @@ function page() {
         <CardLatestBuzz />
         <CardLatestBuzz />
       </div>
+      <Video />
     </div>
   );
 }
