@@ -10,7 +10,7 @@ function CardVideo() {
       />
       <div className="card-body">
         <h5 className="card-title py-2 font-semibold ">Music Night</h5>
-        <p className="card-text font-extralight opacity-80">
+        <p className="card-text font-extralight">
           Some quick example text to build on the card title and make up the
         </p>
       </div>
