@@ -1,4 +1,5 @@
 "use client";
+import Achievements from "@/components/Achievements/Achievements";
 import Button from "@/components/elements/Button";
 import CardLatestBuzz from "@/components/elements/CardLatestBuzz";
 import Header from "@/components/Header/Header";
@@ -20,6 +21,7 @@ function page() {
         <CardLatestBuzz />
       </div>
       <Video />
+      <Achievements />
     </div>
   );
 }
