@@ -16,12 +16,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <header>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Amaranth&family=Lexend&family=Montserrat+Subrayada&family=Nothing+You+Could+Do&display=swap"
-          rel="stylesheet"
-        />
+        <div>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Amaranth&family=Lexend&family=Montserrat+Subrayada&family=Nothing+You+Could+Do&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+          />
+        </div>
         <script
           type="module"
           src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
