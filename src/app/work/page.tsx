@@ -1,5 +1,6 @@
 import CardLatestBuzz from "@/components/elements/CardLatestBuzz";
 import CardVideo from "@/components/elements/CardVideo";
+import Events from "@/components/Events/Events";
 import React from "react";
 
 function page() {
@@ -14,6 +15,9 @@ function page() {
         <CardVideo />
         <CardVideo />
         <CardVideo />
+      </div>
+      <div>
+        <Events />
       </div>
     </div>
   );
