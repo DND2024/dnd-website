@@ -22,8 +22,8 @@ function page() {
         <CardLatestBuzz />
       </div>
       <Video />
-      <Achievements />
       <Events />
+      <Achievements />
     </div>
   );
 }

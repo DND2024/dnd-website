@@ -4,7 +4,7 @@ import CardVideo from "../elements/CardVideo";
 
 function Video() {
   return (
-    <div className="flex flex-col bg-[#D4D4D4] m-[5%] py-10 rounded-xl">
+    <div className="flex flex-col bg-[#D4D4D4] mt-[5%] mx-[5%] py-10 rounded-xl">
       <div className="flex justify-center my-6 ">
         <h1 className="ubuntu-light font-bold text-2xl">VIDEO</h1>
       </div>
