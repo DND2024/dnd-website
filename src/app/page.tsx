@@ -2,6 +2,7 @@
 import Achievements from "@/components/Achievements/Achievements";
 import Button from "@/components/elements/Button";
 import CardLatestBuzz from "@/components/elements/CardLatestBuzz";
+import Events from "@/components/Events/Events";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import Video from "@/components/Video/Video";
@@ -22,6 +23,7 @@ function page() {
       </div>
       <Video />
       <Achievements />
+      <Events />
     </div>
   );
 }
