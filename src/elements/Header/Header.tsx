@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../../src/app/globals.css";
 import { IoClose, IoMenu } from "react-icons/io5";
-import Button from "../elements/Button";
+import Button from "../../components/Button";
 
 function Header() {
   return (

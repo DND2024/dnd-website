@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../src/app/globals.css";
-import CardVideo from "../elements/CardVideo";
+import CardVideo from "../../components/CardVideo";
 
 function Video() {
   return (
