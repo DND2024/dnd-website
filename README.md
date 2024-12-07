@@ -9,7 +9,7 @@ Use Tailwind CSS for 95% of CSS
 
 TO DESIGN
 
-Here is figma design: https://www.figma.com/design/XkRLxvi0y52gy8YcIo3NK8/DnD?node-id=0-1&node-type=canvas&t=TI3Jyhwjp7f1SYUL-0
+Here is figma design: https://www.figma.com/design/XkRLxvi0y52gy8YcIo3NK8/DnD?node-id=17-2&t=4nr2zEmudgBYXTGp-1
 
 TO CODE 
 
