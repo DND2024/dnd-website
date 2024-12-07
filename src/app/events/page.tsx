@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Events() {
+function page() {
   return (
-    <div>Events</div>
+    <div>EventsPage</div>
   )
 }
 
-export default Events
+export default page
