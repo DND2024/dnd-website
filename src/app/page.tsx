@@ -1,6 +1,7 @@
 "use client";
 
 import Achievements from "@/components/Achievements/Achievements";
+import DanceSection from "@/components/DaceSection/DanceSection";
 import Button from "@/components/elements/Button";
 import CardLatestBuzz from "@/components/elements/CardLatestBuzz";
 import Events from "@/components/Events/Events";
@@ -25,6 +26,7 @@ function page() {
       <Video />
       <Events />
       <Achievements />
+      <DanceSection />
     </div>
   );
 }
