@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BsChevronDoubleLeft, BsChevronDoubleRight } from "react-icons/bs";
+import Heading from "../elements/Heading";
 
 function Events() {
   const slides = [
@@ -19,11 +20,7 @@ function Events() {
     );
   return (
     <div className="flex flex-col bg-[#D4D4D4] m-[5%] py-14 rounded-xl">
-      <div className="flex justify-center mb-6 ">
-        <h1 className="ubuntu-light font-bold text-2xl border-b-4 w-fit border-black">
-          EVENTS
-        </h1>
-      </div>
+      <Heading heading={{ value: "EVENTS" }} />
       <div className="flex flex-col items-center">
         <div className="flex flex-col md:flex-row">
           <div className="md:flex max-w-lg  rounded-e-3xl overflow-hidden transition-transform ease-out duration-500 hidden  ">
