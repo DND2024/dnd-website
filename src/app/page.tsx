@@ -4,6 +4,7 @@ import Achievements from "@/components/Achievements/Achievements";
 import DanceSection from "@/components/DaceSection/DanceSection";
 import Button from "@/components/elements/Button";
 import Events from "@/components/Events/Events";
+import Gallery from "@/components/Gallery/Gallery";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import Latest from "@/components/Latest/Latest";
@@ -19,6 +20,7 @@ function page() {
         <Button text={{ value: "Latest buzz" }} />
       </div>
       <Latest />
+      <Gallery />
       <Video />
       <Events />
       <Achievements />
