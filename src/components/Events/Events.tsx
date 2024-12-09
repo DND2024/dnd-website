@@ -20,7 +20,9 @@ function Events() {
   return (
     <div className="flex flex-col bg-[#D4D4D4] m-[5%] py-14 rounded-xl">
       <div className="flex justify-center mb-6 ">
-        <h1 className="ubuntu-light font-bold text-2xl">EVENTS</h1>
+        <h1 className="ubuntu-light font-bold text-2xl border-b-4 w-fit border-black">
+          EVENTS
+        </h1>
       </div>
       <div className="flex flex-col items-center">
         <div className="flex flex-col md:flex-row">
