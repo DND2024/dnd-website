@@ -12,7 +12,7 @@ import React from "react";
 
 function page() {
   return (
-    <div className="flex flex-col bg-[#EFEEE0]">
+    <div className="flex flex-col bg-[#EFEEE0] overflow-hidden">
       <Header />
       <Hero />
       <div className="flex justify-center md:mt-[-9%] py-14 md:py-10">
