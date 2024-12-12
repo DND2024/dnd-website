@@ -1,0 +1,153 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  padding: 10px;
+  padding-left: 100px;  
+  padding-right: 100px;
+  background-image: url(/clip.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #D4D4D4;
+  /*background-color: #161922;*/
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #000000;
+  /*color: #ffffff;*/
+  border-radius: 20px; /* Add this line to create curves */
+}
+
+.footer-logo {
+ 
+  margin-bottom: 10px;
+   
+}
+
+.dnd-logo {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.footer-line {
+  width: 100%;
+  border: 1px solid #000000;
+  margin: 10px 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 120px;  /* Add padding to move content inward */
+  padding-right: 150px; /* Add padding to move content inward */
+}
+
+.footer-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 50px; /* Add padding to move content inward */
+}
+
+.contact-us {
+  margin-bottom: 5px;
+  padding-left: 35px; /* Adjust the padding to move the text to the right */
+}
+
+.phone-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.phone-icon {
+  margin-top: -10px; /* Adjust the margin to position the icon between text and numbers */
+   /* Align the icon with the "Contact Us" text */
+}
+
+.icon {
+  width: 25px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.underline {
+  text-decoration: underline;
+  padding-left: 35px; /* Align the phone numbers with the "Contact Us" text */
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  width: 30px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.footer-image {
+  width: 100%; /* Adjust the width as needed */
+  height: auto;
+  margin-top: 10px;
+}
+
+.footer a:hover {
+  color: #F55E04;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-contact {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-phone {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .contact-us, .underline {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-social {
+    flex-direction: column;
+    align-items: center;
+  }
+}
