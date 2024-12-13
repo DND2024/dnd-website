@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../../src/app/globals.css";
-import { IoClose, IoMenu } from "react-icons/io5";
+import { IoClose, IoMenu, IoSunny } from "react-icons/io5";
 import Button from "../elements/Button";
 
 function Header() {
@@ -49,14 +49,14 @@ function Header() {
         </ul>
       </div>
 
-      <div className="w-2/3 md:w-[20%] flex justify-between bg-red-500">
-        <div className="w-1/4 flex justify-center items-center bg-slate-500">
-        
+      <div className="w-2/3 md:w-[20%] flex justify-between ">
+        <div className="w-1/4 flex justify-center items-center ">
+          <IoSunny className="w-10 h-10 border-2 border-black rounded-md p-2 hover:cursor-pointer" />
         </div>
-        <div className=" w-3/4 flex justify-center items-center bg-green-500">
+        <div className=" w-3/4 flex justify-center items-center">
           <Button text={{ value: "Contact Us" }} />
         </div>
-        <div className=" w-1/4 flex justify-center items-center md:hidden bg-lime-500">
+        <div className=" w-1/4 flex justify-center items-center md:hidden">
           <IoMenu className="text-5xl" />
         </div>
       </div>
