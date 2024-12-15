@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-logo">
-        <img src="Mask group.png" alt="DND Logo" className="dnd-logo" />
+        <img src="Mask group.webp" alt="DND Logo" className="dnd-logo" />
       </div>
 
       <hr className="footer-line" />
@@ -23,7 +23,7 @@ function Footer() {
 
       <div className="footer-contact">
         <div className="footer-location">
-          <img src="location.png" alt="Location" className="icon" />
+          <img src="location.webp" alt="Location" className="icon" />
           <p>
             DND CLUB<br />
             NATIONAL INSTITUTE OF TECHNOLOGY CALICUT<br />
@@ -33,7 +33,7 @@ function Footer() {
         </div>
         <div className="footer-phone">
           <p className="contact-us">CONTACT US</p>
-          <img src="contact_logo.png" alt="Contact" className="icon phone-icon" />
+          <img src="contact_logo.webp" alt="Contact" className="icon phone-icon" />
           <p className="underline">
             +91 987654321 &nbsp; +91 987654321
           </p>
@@ -44,13 +44,13 @@ function Footer() {
 
       <div className="footer-social">
         <a href="mailto:dnd@nitc.ac.in">
-          <img src="mail.png" alt="Email" className="social-icon" />
+          <img src="mail.webp" alt="Email" className="social-icon" />
         </a>
         <a href="https://www.instagram.com/dnd_nitc/" target="_blank" rel="noopener noreferrer">
-          <img src="insta.png" alt="Instagram" className="social-icon" />
+          <img src="insta.webp" alt="Instagram" className="social-icon" />
         </a>
         <a href="https://www.linkedin.com/company/forum-for-dance-and-dramatics/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
-          <img src="linkedin.png" alt="LinkedIn" className="social-icon" />
+          <img src="linkedin.webp" alt="LinkedIn" className="social-icon" />
         </a>
       </div>
 
