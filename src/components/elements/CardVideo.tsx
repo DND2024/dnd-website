@@ -2,7 +2,7 @@ import React from "react";
 
 function CardVideo() {
   return (
-    <div className="card my-10 md:w-2/6 md:mx-[4%] p-[6%] md:p-[2%] rounded-[40px] bg-[#979797] ">
+    <div className="card my-10 md:w-2/6 md:mx-[4%] p-[6%] md:p-[2%] rounded-[40px] bg-[#979797] dark:bg-[#27231B] ">
       <img
         className="card-img-top rounded-[30px] "
         src="https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg"

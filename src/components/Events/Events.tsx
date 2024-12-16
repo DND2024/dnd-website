@@ -19,7 +19,7 @@ function Events() {
       currSlide === slides.length - 1 ? 0 : currSlide + 1
     );
   return (
-    <div className="flex flex-col bg-[#D4D4D4] m-[5%] py-14 rounded-xl">
+    <div className="flex flex-col bg-[#D4D4D4] dark:bg-[#151515] m-[5%] py-14 rounded-xl">
       <Heading heading={{ value: "EVENTS" }} />
       <div className="flex flex-col items-center">
         <div className="flex flex-col md:flex-row">
@@ -50,7 +50,7 @@ function Events() {
         </div>
         <div className="flex flex-row w-[50%] justify-between items-center mt-12">
           <button
-            className="flex border-2 rounded-2xl border-black py-2 px-6 hover:bg-white"
+            className="flex border-2 rounded-2xl border-black py-2 px-6 hover:bg-white dark:hover:bg-black"
             onClick={next}
           >
             <BsChevronDoubleLeft size={30} />
@@ -66,7 +66,7 @@ function Events() {
             ))}
           </div>
           <button
-            className="flex border-2 rounded-2xl border-black py-2 px-6 hover:bg-white"
+            className="flex border-2 rounded-2xl border-black py-2 px-6 hover:bg-white dark:hover:bg-black"
             onClick={prev}
           >
             <BsChevronDoubleRight size={30} />
