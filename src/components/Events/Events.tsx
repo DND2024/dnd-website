@@ -19,7 +19,7 @@ function Events() {
       currSlide === slides.length - 1 ? 0 : currSlide + 1
     );
   return (
-    <div className="flex flex-col bg-[#D4D4D4] dark:bg-[#151515] m-[5%] py-14 rounded-xl">
+    <div className="flex flex-col bg-[#D4D4D4] dark:bg-[#241A18] m-[5%] py-14 rounded-xl">
       <Heading heading={{ value: "EVENTS" }} />
       <div className="flex flex-col items-center">
         <div className="flex flex-col md:flex-row">
