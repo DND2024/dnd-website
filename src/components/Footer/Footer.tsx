@@ -3,14 +3,15 @@ import './footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer bg-[url(/clip.webp)] bg-cover dark:bg-[#161922] ">
       <div className="footer-logo">
         <img src="Mask group.webp" alt="DND Logo" className="dnd-logo" />
       </div>
 
-      <hr className="footer-line" />
+      <hr className="footer-line dark:border-gray-500" />
 
-      <div className="footer-nav">
+      <div className="footer-nav dark:text-white ">
+      
         <a href="/home">Home</a>
         <a href="/events">Events</a>
         <a href="/gallery">Gallery</a>
@@ -19,9 +20,9 @@ function Footer() {
         <a href="/team">Our Team</a>
       </div>
 
-      <hr className="footer-line" />
+      <hr className="footer-line dark:border-gray-500" />
 
-      <div className="footer-contact">
+      <div className="footer-contact dark:invert">
         <div className="footer-location">
           <img src="location.webp" alt="Location" className="icon" />
           <p>
@@ -40,9 +41,9 @@ function Footer() {
         </div>
       </div>
 
-      <hr className="footer-line" />
+      <hr className="footer-line dark:border-gray-500" />
 
-      <div className="footer-social">
+      <div className="footer-social dark:invert">
         <a href="mailto:dnd@nitc.ac.in">
           <img src="mail.webp" alt="Email" className="social-icon" />
         </a>
