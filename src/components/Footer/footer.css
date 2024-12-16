@@ -5,23 +5,21 @@
   align-items: center;
   margin: 25px;
   padding: 10px;
-  padding-left: 100px;  
+  padding-left: 100px;
   padding-right: 100px;
-  
+
   background-size: cover;
   background-position: center;
-  background-color: #D4D4D4;
+  background-color: #d4d4d4;
   /* background-color: #161922; */
-  font-family: 'Montserrat Subrayada', sans-serif;
+  font-family: "Montserrat Subrayada", sans-serif;
   color: #000000;
   /*color: #ffffff;*/
   border-radius: 20px; /* Add this line to create curves */
 }
 
 .footer-logo {
- 
   margin-bottom: 10px;
-   
 }
 
 .dnd-logo {
@@ -75,7 +73,7 @@
 
 .phone-icon {
   margin-top: -10px; /* Adjust the margin to position the icon between text and numbers */
-   /* Align the icon with the "Contact Us" text */
+  /* Align the icon with the "Contact Us" text */
 }
 
 .icon {
@@ -107,7 +105,7 @@
 }
 
 .footer a:hover {
-  color: #F55E04;
+  color: #f55e04;
 }
 
 /* Responsive Design */
@@ -129,7 +127,8 @@
     padding-left: 0;
   }
 
-  .contact-us, .underline {
+  .contact-us,
+  .underline {
     padding-left: 0;
     text-align: center;
   }

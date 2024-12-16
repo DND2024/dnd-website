@@ -3,26 +3,24 @@
 import Achievements from "@/components/Achievements/Achievements";
 import DanceSection from "@/components/DaceSection/DanceSection";
 import Button from "@/components/elements/Button";
-import CardLatestBuzz from "@/components/elements/CardLatestBuzz";
 import Events from "@/components/Events/Events";
+import Gallery from "@/components/Gallery/Gallery";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
+import Latest from "@/components/Latest/Latest";
 import Video from "@/components/Video/Video";
 import React from "react";
 
 function page() {
   return (
-    <div className="flex flex-col bg-[#EFEEE0]">
+    <div className="flex flex-col overflow-hidden">
       <Header />
       <Hero />
-      <div className="flex justify-center md:mt-[-9%]  my-10 mx-10">
+      <div className="flex justify-center md:mt-[-9%] py-14 md:py-10">
         <Button text={{ value: "Latest buzz" }} />
       </div>
-      <div className="flex flex-col md:flex-row mx-[20%] md:mx-24 items-center ">
-        <CardLatestBuzz />
-        <CardLatestBuzz />
-        <CardLatestBuzz />
-      </div>
+      <Latest />
+      <Gallery />
       <Video />
       <Events />
       <Achievements />

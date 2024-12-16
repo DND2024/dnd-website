@@ -6,7 +6,7 @@ function DanceSection() {
   return (
     <div>
       <section className="flex w-screen h-fit flex-col p-[10%]">
-        <div className="bg-[url('/dance-row-bg.webp')]">
+        <div className="bg-[url('/dance-row-bg.webp')] dark:bg-[url('/dance-row-bg-dark.webp')] ">
           <div className="flex flex-col my-6">
             <h1 className="flex text-[50px] justify-center py-1 island-moments-regular text-[#FBFF00] ">
               make a move
@@ -40,7 +40,7 @@ function DanceSection() {
             danceUrl={"dance-three.webp"}
           />
         </div>
-        <button className=" flex justify-center p-2 ubuntu-light bg-[#A6A6A6] ">
+        <button className=" flex justify-center p-2 ubuntu-light bg-[#A6A6A6] dark:bg-[#252935] ">
           More
         </button>
       </section>

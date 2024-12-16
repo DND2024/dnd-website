@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BsChevronDoubleLeft, BsChevronDoubleRight } from "react-icons/bs";
+import Heading from "../elements/Heading";
 
 function Events() {
   const slides = [
@@ -18,10 +19,8 @@ function Events() {
       currSlide === slides.length - 1 ? 0 : currSlide + 1
     );
   return (
-    <div className="flex flex-col bg-[#D4D4D4] m-[5%] py-14 rounded-xl">
-      <div className="flex justify-center mb-6 ">
-        <h1 className="ubuntu-light font-bold text-2xl">EVENTS</h1>
-      </div>
+    <div className="flex flex-col bg-[#D4D4D4] dark:bg-[#241A18] m-[5%] py-14 rounded-xl">
+      <Heading heading={{ value: "EVENTS" }} />
       <div className="flex flex-col items-center">
         <div className="flex flex-col md:flex-row">
           <div className="md:flex max-w-lg  rounded-e-3xl overflow-hidden transition-transform ease-out duration-500 hidden  ">
@@ -51,7 +50,7 @@ function Events() {
         </div>
         <div className="flex flex-row w-[50%] justify-between items-center mt-12">
           <button
-            className="flex border-2 rounded-2xl border-black py-2 px-6 hover:bg-white"
+            className="flex border-2 rounded-2xl border-black py-2 px-6 hover:bg-white dark:hover:bg-black"
             onClick={next}
           >
             <BsChevronDoubleLeft size={30} />
@@ -67,7 +66,7 @@ function Events() {
             ))}
           </div>
           <button
-            className="flex border-2 rounded-2xl border-black py-2 px-6 hover:bg-white"
+            className="flex border-2 rounded-2xl border-black py-2 px-6 hover:bg-white dark:hover:bg-black"
             onClick={prev}
           >
             <BsChevronDoubleRight size={30} />
