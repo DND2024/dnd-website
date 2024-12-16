@@ -6,7 +6,7 @@ import ThemeSwitcher from "../elements/ThemeSwitcher";
 
 function Header() {
   return (
-    <nav className="flex flex-row w-screen px-[2%] items-center border-b-2 border-black backdrop-blur-md fixed ">
+    <nav className="z-20 flex flex-row w-screen px-[2%] items-center border-b-2 border-black backdrop-blur-md fixed ">
       <div className="w-1/3 md:w-[20%] flex justify-center ">
         <img
           className="h-20 hover:cursor-pointer static"
