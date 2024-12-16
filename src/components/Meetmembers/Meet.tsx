@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { members } from './Members';
+import { members } from '@/components/Meetmembers/Members';
 
 export default function Meet( ) {
   const [currentPage, setCurrentPage] = useState(0);
