@@ -17,7 +17,7 @@ function Header() {
       <div className="w-0 md:w-[60%] md:flex justify-center hidden ">
         <ul className="flex flex-row montserrat-subrayada hover:cursor-pointer gap-6 text-black dark:text-white">
           <li>
-            <a className="text-[#F55E04]" href="/">
+            <a className="hover:text-[#F55E04]" href="/">
               Home
             </a>
           </li>
