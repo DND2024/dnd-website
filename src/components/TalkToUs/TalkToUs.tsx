@@ -34,7 +34,7 @@ export default function TalkToUs( ) {
 
   return (
 
-      <div className="relative z-10 translate-y-40 dark:bg-[#000000] dark:shadow-[3px_20px_1px_0px_rgba(44,49,56,1)] shadow-[3px_20px_1px_0px_rgba(170,170,170,1)]  flex flex-grow justify-center rounded-[20px] bg-neutral-400 py-4 px-4 md:px-14 drop-shadow-lg mx-4 md:mx-[250px]">
+      <div className="sm:min-w-64 md:w-auto relative z-10 sm:translate-y-40 dark:bg-[#000000] dark:shadow-[3px_20px_1px_0px_rgba(44,49,56,1)] shadow-[3px_20px_1px_0px_rgba(170,170,170,1)]  flex flex-grow flex-shrink justify-center rounded-[20px] bg-neutral-400 px-2 sm:py-4 sm:px-4 sm:px-14 drop-shadow-lg mt-0 mx-[2%] sm:mx-[15%]  lg:mx-[250px]">
         <div className="font-ubuntu flex flex-grow flex-col items-center justify-end pt-[60px] leading-[normal] tracking-[0px] w-full max-w-[800px]">
           <div className="flex flex-grow flex-wrap items-start justify-center gap-x-[20px] md:gap-x-[70px] gap-y-[20px] md:gap-y-[70px] self-stretch min-[924px]:flex-nowrap">
             <div className="flex flex-col items-center justify-left pt-[5px] md:mr-6">
@@ -58,13 +58,13 @@ export default function TalkToUs( ) {
                 />
               </div>
               
-              <div className="w-full flex flex-wrap  items-center justify-center gap-x-[13px] gap-y-[13px] min-[924px]:flex-nowrap">
+              <div className="w-full flex flex-wrap sm:flex-nowrap  items-center justify-center gap-x-[13px] gap-y-[13px] min-[924px]:flex-nowrap">
                 <input
                   type="email"
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="dark:bg-[#262C38] w-full basis-3/5 md:w-[calc(50%-13px)] rounded-[5px] bg-[lightgray] py-1.5 pl-3.5 border-none focus:outline-none"
+                  className="dark:bg-[#262C38] w-full sm:basis-3/5  rounded-[5px] bg-[lightgray] py-1.5 pl-3.5 border-none focus:outline-none"
                   placeholder="Email"
                   required
                 />
@@ -73,7 +73,7 @@ export default function TalkToUs( ) {
                   id="mobile"
                   value={mobile}
                   onChange={(e) => setMobile(e.target.value)}
-                  className="dark:bg-[#262C38] w-full basis-2/5 md:w-[calc(50%-13px)] rounded-[5px] bg-[lightgray] py-1.5 pl-3.5 border-none focus:outline-none"
+                  className="dark:bg-[#262C38] w-full sm:basis-2/5   rounded-[5px] bg-[lightgray] py-1.5 pl-3.5 border-none focus:outline-none"
                   placeholder="Mobile No."
                   required
                 />
@@ -90,7 +90,7 @@ export default function TalkToUs( ) {
                 />
               </div>
 
-              <div className="flex items-center justify-end pt-0.5">
+              <div className="flex items-center justify-end mb-[5%] sm:mb-0 pt-0.5">
                 <button
                   type="submit"
                   className="rounded-[5px] bg-purple-700 hover:bg-purple-800 pb-1 pl-7 pr-[26px] pt-[5px] text-center text-[15px] leading-[normal] text-white"

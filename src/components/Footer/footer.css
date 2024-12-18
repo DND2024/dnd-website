@@ -1,26 +1,25 @@
 .footer {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   align-items: center;
   margin: 25px;
   padding: 10px;
-  padding-left: 100px;  
+  padding-left: 100px;
   padding-right: 100px;
-  
+
   background-size: cover;
   background-position: center;
-  background-color: #D4D4D4;
+  background-color: #d4d4d4;
   /* background-color: #161922; */
-  font-family: 'Montserrat Subrayada', sans-serif;
+  font-family: "Montserrat Subrayada", sans-serif;
   color: #000000;
   /*color: #ffffff;*/
   border-radius: 20px; /* Add this line to create curves */
 }
 
 .footer-logo {
- 
   margin-bottom: 10px;
-   
 }
 
 .dnd-logo {
@@ -34,39 +33,32 @@
   margin: 10px 0;
 }
 
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 10px;
-}
 
 .footer-nav a:hover {
   text-decoration: underline;
 }
 
-.footer-contact {
+/* .footer-contact {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 10px;
-  padding-left: 120px;  /* Add padding to move content inward */
-  padding-right: 150px; /* Add padding to move content inward */
-}
+  padding-left: 120px; 
+} */
 
-.footer-location {
+/* .footer-location {
   display: flex;
   align-items: center;
   gap: 10px;
-}
+} */
 
-.footer-phone {
+/* .footer-phone {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  padding-left: 50px; /* Add padding to move content inward */
-}
+  padding-left: 50px; 
+} */
 
 .contact-us {
   margin-bottom: 5px;
@@ -74,15 +66,14 @@
 }
 
 .phone-details {
-  display: flex;
-  flex-direction: column;
+  display: flex-nowrap;
   align-items: flex-start;
   gap: 10px;
 }
 
 .phone-icon {
   margin-top: -10px; /* Adjust the margin to position the icon between text and numbers */
-   /* Align the icon with the "Contact Us" text */
+  /* Align the icon with the "Contact Us" text */
 }
 
 .icon {
@@ -107,25 +98,25 @@
   height: auto;
 }
 
-.footer-image {
-  width: 100%; /* Adjust the width as needed */
+/* .footer-image {
+  width: 100%;   
   height: auto;
   margin-top: 10px;
-}
+} */
 
 .footer a:hover {
-  color: #F55E04;
+  color: #f55e04;
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .footer {
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .footer-contact {
-    flex-direction: column;
+     
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -136,18 +127,17 @@
     padding-left: 0;
   }
 
-  .contact-us, .underline {
+  .contact-us,
+  .underline {
     padding-left: 0;
     text-align: center;
   }
 
-  .footer-nav {
-    flex-direction: column;
+  .footer-nav { 
     align-items: center;
   }
 
   .footer-social {
-    flex-direction: column;
     align-items: center;
   }
-}
+} */
