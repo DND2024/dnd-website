@@ -38,3 +38,24 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "JokermanRegular";
+  src: local("JokermanRegular"),
+    url("../../public/fonts/Jokerman.otf") format("opentype");
+  font-weight: 400;
+}
+.jokerman-regular {
+  font-family: "JokermanRegular";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kablammo {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
