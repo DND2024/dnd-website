@@ -47,7 +47,7 @@ function TeamPage() {
 
   return (
     <>
-      <div className='dark:bg-[url(/bg.webp)] dark:bg-cover bg-[#EFEEE0] h-auto my-auto mx-[1%] sm:mx-0 overflow-hidden'>
+      <div className=' dark:bg-[url(/bg.webp)] dark:bg-cover bg-[url(/bg-team-light.webp)]  bg-cover h-auto my-auto mx-[1%] sm:mx-0 overflow-hidden'>
         <Header />
         <div className='invert dark:filter-none pt-[7rem] max-w-[40rem] mx-auto my-auto px-auto'>
           <img className='object-cover w-full' src="/OUR TEAM.webp" alt="OUR TEAM" />
