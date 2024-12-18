@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import EventsRow from "../elements/EventsRow";
+import EventButton from "../elements/EventButton";
 
 function EventsHero() {
   const [currSlide, setCurrSlide] = useState(0);
@@ -30,7 +31,30 @@ function EventsHero() {
 
   return (
     <div className="flex flex-col bg-[#EFEEE0] dark:bg-[#110F0F] ">
-      <div className="flex w-screen h-screen bg-neutral-400"> Home </div>
+      <div className="flex flex-col w-screen h-screen">
+        <h1 className="flex w-screen h-1/3 justify-center pt-28 text-9xl jokerman-regular dark:text-white">
+          EVENTS
+        </h1>
+        <div className="flex flex-row justify-around items-center w-screen h-1/3 px-20">
+          <img className="flex w-[15%] h-fit" src="/drum.webp" alt="drum" />
+          <img className="flex w-[20%] h-fit" src="/guitar.webp" alt="guitar" />
+          <img className="flex w-[12%] h-fit" src="/mic.webp" alt="mic" />
+        </div>
+        <div className="flex flex-col w-screen h-1/3 pb-10  justify-evenly items-center kablammo">
+          <div className="flex flex-row w-screen justify-around px-20">
+            <EventButton text={{ value: "DANZA" }} />
+            <EventButton text={{ value: "DANCE WORKSHOP" }} />
+            <EventButton text={{ value: "AARAVAM" }} />
+            <EventButton text={{ value: "BEAT BRAWL" }} />
+          </div>
+          <div className="flex flex-row w-screen justify-around px-20">
+            <EventButton text={{ value: "CUPID HINT" }} />
+            <EventButton text={{ value: "FIESTA" }} />
+            <EventButton text={{ value: "OPEN MIC" }} />
+            <EventButton text={{ value: "BUZZER KILL" }} />
+          </div>
+        </div>
+      </div>
 
       <div className="flex flex-col w-screen h-fit lg:h-screen justify-evenly items-center py-10">
         <div className="flex w-[80%] lg:w-[50%] h-fit rounded-3xl justify-center items-center">
