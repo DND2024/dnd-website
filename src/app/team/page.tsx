@@ -82,7 +82,7 @@ function TeamPage() {
                   <a href={member.instaLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                     <img src="insta.webp" alt="Instagram" className='mt-1 mx-auto social icon' />
                   </a>
-                  <a href={member.instaLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                     <img src="linkedin.webp" alt="LinkedIn" className='mt-1 mx-auto social icon' />
                   </a>
                 </div>
@@ -107,7 +107,7 @@ function TeamPage() {
                   <a href={member.instaLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                     <img src="insta.webp" alt="Instagram" className='mt-1 mx-auto social icon' />
                   </a>
-                  <a href={member.instaLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                     <img src="linkedin.webp" alt="LinkedIn" className='mt-1 mx-auto social icon' />
                   </a>
                 </div>
