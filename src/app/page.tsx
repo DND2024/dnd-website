@@ -16,7 +16,7 @@ import React from "react";
 
 function page() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col overflow-hidden bg-[#EFEEE0] dark:bg-[#110F0F]">
       <Header />
       <Hero />
       <div className="flex justify-center md:mt-[-9%] py-14 md:py-10">
