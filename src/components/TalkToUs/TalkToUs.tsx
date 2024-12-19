@@ -34,15 +34,16 @@ export default function TalkToUs( ) {
 
   return (
 
-      <div className="sm:min-w-64 md:w-auto relative z-10 sm:translate-y-40 dark:bg-[#000000] dark:shadow-[3px_20px_1px_0px_rgba(44,49,56,1)] shadow-[3px_20px_1px_0px_rgba(170,170,170,1)]  flex flex-grow flex-shrink justify-center rounded-[20px] bg-neutral-400 px-2 sm:py-4 sm:px-4 sm:px-14 drop-shadow-lg mt-0 mx-[2%] sm:mx-[15%]  lg:mx-[250px]">
+      <div className="sm:min-w-64 md:w-auto relative z-10 sm:translate-y-40 dark:bg-[#000000] dark:shadow-[3px_20px_1px_0px_rgba(44,49,56,1)] shadow-[3px_20px_1px_0px_rgba(170,170,170,1)]  flex flex-grow flex-shrink justify-center rounded-[20px] bg-neutral-400 px-2 sm:py-4 sm:px-14 drop-shadow-lg mt-0 mx-[2%] sm:mx-[15%] ">
         <div className="font-ubuntu flex flex-grow flex-col items-center justify-end pt-[60px] leading-[normal] tracking-[0px] w-full max-w-[800px]">
           <div className="flex flex-grow flex-wrap items-start justify-center gap-x-[20px] md:gap-x-[70px] gap-y-[20px] md:gap-y-[70px] self-stretch min-[924px]:flex-nowrap">
             <div className="flex flex-col items-center justify-left pt-[5px] md:mr-6">
               <img
-                className="h-32 w-64 md:h-64 md:w-64 flex-shrink-0 object-cover object-center"
+                className="h-32 max-w-100% md:h-64 md:w-64 shrink-0 object-cover object-center"
                 src="contact-image.webp"
                 alt="this is an img"
-                loading="lazy"
+                loading ="lazy"
+                
               />
             </div>
             <form onSubmit={handleSubmit} className=" flex w-full md:w-[507px] flex-shrink flex-col items-end gap-y-4 self-stretch leading-[normal] text-[dimgray]">
@@ -55,16 +56,17 @@ export default function TalkToUs( ) {
                   className="dark:bg-[#262C38] w-full bg-[lightgray] border-none focus:outline-none"
                   placeholder="Name"
                   required
+                  
                 />
               </div>
               
-              <div className="w-full flex flex-wrap sm:flex-nowrap  items-center justify-center gap-x-[13px] gap-y-[13px] min-[924px]:flex-nowrap">
+              <div className="w-full flex flex-wrap sm:flex-nowrap  items-center justify-center gap-x-[1px] gap-y-[13px] min-[924px]:flex-nowrap">
                 <input
                   type="email"
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="dark:bg-[#262C38] w-full sm:basis-3/5  rounded-[5px] bg-[lightgray] py-1.5 pl-3.5 border-none focus:outline-none"
+                  className="dark:bg-[#262C38] w-full sm:basis-3/5 sm:mr-3  rounded-[5px] bg-[lightgray] py-1.5 pl-3.5 border-none focus:outline-none"
                   placeholder="Email"
                   required
                 />
