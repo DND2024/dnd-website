@@ -3,11 +3,6 @@
   flex-wrap: nowrap;
   flex-direction: column;
   align-items: center;
-  margin: 25px;
-  padding: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-
   background-size: cover;
   background-position: center;
   background-color: #d4d4d4;
@@ -18,17 +13,15 @@
   border-radius: 20px; /* Add this line to create curves */
 }
 
-.footer-logo {
-  margin-bottom: 10px;
-}
+ 
 
 .dnd-logo {
-  width: 150px; /* Adjust the size as needed */
+  min-width: 100px; /* Adjust the size as needed */
   height: auto;
 }
 
 .footer-line {
-  width: 100%;
+  width: 80%;
   border: 1px solid #000000;
   margin: 10px 0;
 }
@@ -60,10 +53,10 @@
   padding-left: 50px; 
 } */
 
-.contact-us {
+/* .contact-us {
   margin-bottom: 5px;
-  padding-left: 35px; /* Adjust the padding to move the text to the right */
-}
+  padding-left: 35px;  
+} */
 
 .phone-details {
   display: flex-nowrap;
@@ -81,10 +74,10 @@
   height: auto;
 }
 
-.underline {
+/* .underline {
   text-decoration: underline;
-  padding-left: 35px; /* Align the phone numbers with the "Contact Us" text */
-}
+  padding-left: 35px; 
+} */
 
 .footer-social {
   display: flex;
