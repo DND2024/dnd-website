@@ -47,12 +47,20 @@ function TeamPage() {
 
   return (
     <>
-      <div className=' dark:bg-[url(/bg.webp)] dark:bg-cover bg-[url(/bg-team-light.webp)]  bg-cover h-auto my-auto mx-[1%] sm:mx-0 overflow-hidden'>
+      <div className=' dark:bg-[url(/darkbgtest.webp)]  dark:bg-cover bg-[#EFEEE0] bg-cover h-auto my-auto mx-[1%] sm:mx-0 overflow-hidden'>
         <Header />
         <div className='invert dark:filter-none pt-[7rem] max-w-[40rem] mx-auto my-auto px-auto'>
           <img className='object-cover w-full' src="/OUR TEAM.webp" alt="OUR TEAM" />
         </div>
+           
+           {/* <div className='dark:border-r-orange-50 dark:border-8 h-48 dark:bg-[url(/music-clip.webp)] bg-cover bg-no-repeat'>
 
+           </div> */}
+           <div className='invert dark:filter-none w-full h-auto absolute -translate-y-12'>
+            <img className='object-cover w-full' src="/music-clip.webp" alt="image" />
+           </div>
+           
+           <div className=' relative'>
         <div className='flex  flex-col md:flex-row  justify-center items-center text-center  sm:justify-end w-full px-10 gap-x-[30%]'>
           <div className='UNDERLINE  place-content-center items-center sm:flex-initial md:translate-x-[20%] w-[70%] sm:w-[20%] h-[7px] dark:bg-white bg-black mt-10 rounded-lg'></div>
           <div className='BUTTON flex-initial dark:text-black bg-slate-400 rounded-[10px] mt-5 py-[2%] sm:py-2 px-[3%] sm:px-4'>
@@ -135,6 +143,7 @@ function TeamPage() {
                     <img src="linkedin.webp" alt="LinkedIn" className='mt-1 mx-auto social icon' />
                   </a>
                 </div>
+               </div>  
               </div>
             </div>
 
