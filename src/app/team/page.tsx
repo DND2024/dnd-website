@@ -80,12 +80,12 @@ function TeamPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 md:gap-x-[25%] xl:grid-cols-4 place-content-around place-items-center justify-items-center mx-[10%] mt-8 gap-x-[20%] gap-y-16 self-stretch text-xl leading-[normal] min-[1266px]:grid-nowrap">
           {currDesignees.map((member, index) => (
-            <div key={index} className="rectangle  bg-gray-600 dark:bg-transparent font-bold w-64 h-72  rounded-lg shadow-md items-center justify-center overflow-hidden">
+            <div key={index} className="rectangle  bg-gray-600 bg-inherit font-bold w-64 h-72  rounded-lg shadow-md items-center justify-center overflow-hidden">
               <div className="bg-gray-400 w-full h-3/4 rounded-lg">
                 <img src={member.thumbnail} alt={member.name} className="w-full h-full object-contain rounded-lg" />
               </div>
               <div className=" mb-2 text-center mt-1">
-                <p className="dark:text-orange-500 truncate mb-[4%]  px-2">{member.name}</p>
+                <p className="text-orange-500 truncate mb-[4%]  px-2">{member.name}</p>
                 <div className='dark:invert flex justify-center gap-5'>
                   <a href={member.instaLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                     <img src="insta.webp" alt="Instagram" className='mt-1 mx-auto social icon' />
@@ -105,12 +105,12 @@ function TeamPage() {
            
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 md:gap-x-[25%] xl:grid-cols-4 place-content-around place-items-center justify-items-center mx-[10%] mt-8 gap-x-[20%] gap-y-16 self-stretch text-xl leading-[normal] min-[1266px]:grid-nowrap">
           {currJuniorExecutives.map((member, index) => (
-            <div key={index} className="rectangle  bg-gray-600 dark:bg-transparent font-bold w-64 h-72  rounded-lg shadow-md items-center justify-center overflow-hidden">
+            <div key={index} className="rectangle  bg-gray-600 bg-inherit font-bold w-64 h-72  rounded-lg shadow-md items-center justify-center overflow-hidden">
               <div className="bg-gray-400 w-full h-3/4 rounded-lg">
                 <img src={member.thumbnail} alt={member.name} className="w-full h-full object-contain rounded-lg" />
               </div>
               <div className=" mb-2 text-center mt-1">
-                <p className="dark:text-orange-500 truncate mb-[4%]  px-2">{member.name}</p>
+                <p className="text-orange-500 truncate mb-[4%]  px-2">{member.name}</p>
                 <div className='dark:invert flex justify-center gap-5'>
                   <a href={member.instaLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                     <img src="insta.webp" alt="Instagram" className='mt-1 mx-auto social icon' />
@@ -129,13 +129,13 @@ function TeamPage() {
           <h1 className='dark:text-white font-semibold text-4xl'>FACULTY-IN-CHARGE</h1>
         </div>
 
-        <div className="rectangle bg-gray-600  dark:bg-transparent font-bold w-64 h-72 rounded-lg shadow-md items-center justify-center mx-auto mt-8 overflow-hidden">
+        <div className="rectangle bg-gray-600  bg-inherit font-bold w-64 h-72 rounded-lg shadow-md items-center justify-center mx-auto mt-8 overflow-hidden">
               <div className="bg-gray-400 w-full h-3/4 rounded-lg ">
                 <img src='#' alt= 'imj' className="w-full h-full object-contain rounded-lg" />
               </div>
-              <div className="dark:invert text-center mt-2">
-                <p className="dark:text-orange-500 text-xl font-bold truncate px-2">Faculty's name</p>
-                <div className='flex justify-center gap-5 '>
+              <div className=" text-center mt-2">
+                <p className="text-orange-500 text-xl font-bold truncate px-2">Faculty's name</p>
+                <div className='dark:invert flex justify-center gap-5 '>
                   <a href='#' target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                     <img src="insta.webp" alt="Instagram" className='mt-1 mx-auto social icon' />
                   </a>

@@ -98,7 +98,7 @@ function page() {
                   <div className='bg-inherit  w-[60%]  md:w-[45%] md:h-24 mx-auto rounded-lg mb-[5%]'>
                      <div className='w-full border-gray-600 md:h-25 
                      min-[772px]:h- lg:h-80 rounded-lg overflow-hidden'>
-                       <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy0PQ49dMLHWpXoV6C42kUEPHOxXASewRF6w&s' alt='img'    />
+                       <img  src='https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='img'    />
                      </div>
                     <p>Batch 2022</p>
                   </div>
@@ -108,7 +108,7 @@ function page() {
                   <div className='bg-inherit  w-[60%]  md:w-[45%] md:h-24 mx-auto rounded-lg mb-[5%]'>
                      <div className='w-full border-gray-600 md:h-25 
                      min-[772px]:h- lg:h-80 rounded-lg overflow-hidden'>
-                       <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8Ppm2lg6vmlNlTcFnHcPRflbMo4Y9riMUA&s' alt='img'    />
+                       <img  src='https://media.istockphoto.com/id/1134374655/photo/fitness-class-fun.jpg?s=612x612&w=0&k=20&c=jbeY_l1W3XqB5trOcKuzXG8_7Rn159mjCajLT0q9Jf0=' alt='img'    />
                      </div>
                     <p>Batch 2023</p>
                   </div>
@@ -118,7 +118,7 @@ function page() {
                   <div className='bg-inherit  w-[60%]  md:w-[45%] md:h-24 mx-auto rounded-lg mb-[5%]'>
                      <div className='w-full border-gray-600 md:h-25 
                      min-[772px]:h- lg:h-80 rounded-lg overflow-hidden'>
-                       <img  src='/bg-image.webp' alt='img'    />
+                       <img  src='https://media.istockphoto.com/id/517486990/photo/the-group-of-modern-ballet-dancers.jpg?s=612x612&w=0&k=20&c=TUryi44jtdJuXROqIy0PZ_N71B-dztHZk2OMKErU9ls=' alt='img'    />
                      </div>
                     <p>Batch 2024</p>
                   </div>
