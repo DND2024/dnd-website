@@ -18,7 +18,7 @@ function Page() {
       <Header />
       <div className='w-full h-full grid grid-cols-12 grid-rows-3 gap-y-[75%] bg-[url(/lightGall1.webp)] dark:bg-[url(/gallerybg.webp)] bg-cover md:pb-[4%] lg:pb-[8%] xl:[13%] px-[2%] mx-auto mt-[5%] px-auto'>
         <div className='col-span-12 invert dark:filter-none pt-[7rem] max-w-[40rem] mx-auto my-auto px-auto'>
-          <img className='object-cover w-full h-full' src="/OUR TEAM.webp" alt="OUR TEAM" />
+          <img className='object-cover object-center w-full h-full' src="/gallery-logo.webp" alt="OUR TEAM" />
         </div>
         <div className='col-span-12 text-white flex justify-end gap-x-10 pb-6 mb-3'>
           <div className='bg-gray-500 basis-1/4 h-32'>
