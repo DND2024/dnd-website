@@ -1,4 +1,4 @@
-export const currJrExecutive = [
+export const currJrExecutives = [
     {
       name: "Chandrabhushan Kumar 22 23",
       instaHandle: "@dnd_insta",
