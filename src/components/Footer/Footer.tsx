@@ -16,7 +16,7 @@ function Footer() {
         <a href="/events" className="text-xs md:text-sm lg:text-base">Events</a>
         <a href="/gallery" className="text-xs md:text-sm lg:text-base">Gallery</a>
         <a href="/about" className="text-xs md:text-sm lg:text-base">About</a>
-        <a href="/blog" className="text-xs md:text-sm lg:text-base">Blog</a>
+        {/* <a href="/blog" className="text-xs md:text-sm lg:text-base">Blog</a> */}
         <a href="/team" className="text-xs md:text-sm lg:text-base">Our Team</a>
       </div>
 
