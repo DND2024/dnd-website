@@ -1,11 +1,9 @@
 "use client";
 import React, { useState } from 'react';
 import { currDesignees as designees22_23 } from '@/app/team/Designees_22_23';
-import { currDesignees as designees23_24 } from '@/app/team/Designees_23_24';
-import { currDesignees as designees24_25 } from '@/app/team/Designees_24_25';
-import { currJrExecutive as jrExecutives22_23 } from '@/app/team/Jrexecutives_22_23';
-import { currJrExecutive as jrExecutives23_24 } from '@/app/team/Jrexecutives_23_24';
-import { currJrExecutive as jrExecutives24_25 } from '@/app/team/Jrexecutives_24_25';
+ 
+import { currJrExecutives as jrExecutives22_23 } from '@/app/team/Jrexecutives_22_23';
+ 
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 
@@ -61,9 +59,10 @@ function TeamPage() {
            </div>
            
            <div className=' relative'>
-        <div className='flex  flex-col md:flex-row  justify-center items-center text-center  sm:justify-end w-full px-10 gap-x-[30%]'>
-          <div className='UNDERLINE  place-content-center items-center sm:flex-initial md:translate-x-[20%] w-[70%] sm:w-[20%] h-[7px] dark:bg-white bg-black mt-10 rounded-lg'></div>
-          
+ 
+        <div className='flex  flex-col md:flex-row  justify-center items-center text-center  w-full px-10 gap-x-[30%]'>
+          <div className='UNDERLINE  place-content-center items-center sm:flex-initial   w-[70%] sm:w-[20%] h-[7px] dark:bg-white bg-black mt-10 rounded-lg'></div>
+
           {/* <div className='BUTTON flex-initial dark:text-black bg-slate-400 rounded-[10px] mt-5 py-[2%] sm:py-2 px-[3%] sm:px-4'>
             <h2 className='font-bold'>YEAR :
               <select className='ml-2 rounded-lg font-bold  bg-white' name="year" id="year" value={selectedYear} onChange={handleYearChange}>
@@ -73,8 +72,10 @@ function TeamPage() {
               </select>
             </h2>
           </div> */}
-          
         </div>
+
+
+           {/* Designees */}
 
         <div className='text-center max-w-md h-10 mt-8 mb-[20%] sm:mb-0 mx-auto font-bold'>
           <h1 className='dark:text-white font-semibold text-4xl'>CURRENT DESIGNEES</h1>
@@ -100,6 +101,8 @@ function TeamPage() {
             </div>
           ))}
         </div>
+
+       {/* JrExecutive */}
 
         <div className='text-center max-w-md h-10 mt-8 mx-auto font-bold'>
           <h1 className='dark:text-white font-semibold text-4xl'>JUNIOR EXECUTIVES</h1>
@@ -130,6 +133,8 @@ function TeamPage() {
         <div className='text-center max-w-md h-10 mt-8 mx-auto font-bold'>
           <h1 className='dark:text-white font-semibold text-4xl'>FACULTY-IN-CHARGE</h1>
         </div>
+    
+        {/* Faculty */}
 
         <div className="rectangle bg-gray-600  bg-inherit font-bold w-64 h-72 rounded-lg shadow-md items-center justify-center mx-auto mt-8 overflow-hidden">
               <div className="bg-gray-400 w-full h-3/4 rounded-lg ">
